@@ -26,6 +26,9 @@
             <li>
                 <a href="#Variables">Variables</a>
             </li>
+            <li>
+              <a href="#Declaring_variables">Declaring_variables</a>  
+            </li>
         </ul>
     </nav>
 
@@ -145,10 +148,10 @@
           browser!
         
           </article>
-         <section class ="main section"id="variables">
-          
-        <article>
-<head>Variables</head>
+       
+          <section class="main section"id="variables">
+          <head>Variables</head>
+<article>
 <p>
           You use variables as symbolic names for values in your application.
           The names of variables, called identifiers, conform to certain rules.
@@ -167,8 +170,30 @@
           characters in identifiers. Some examples of legal names are
           Number_hits, temp99, and _name.
 </article>
-
-
+ </section>
+ <section class="main-section" id="Declaring_variables">
+        <header>Declaring variables</header>
+        <article>
+          You can declare a variable in three ways:
+          <p>
+            With the keyword var. For example, 
+            <code>var x = 42.</code> 
+            This syntax can be used to declare both local and global variables.
+          </p>
+          <p>
+            By simply assigning it a value. For example,
+            <code>x = 42.</code> 
+            This always declares a global variable. It
+            generates a strict JavaScript warning. You shouldn't use this
+            variant.
+          </p>
+          <p>
+            With the keyword let. For example,
+            <code> let y = 13.</code> 
+            This syntax can be used to declare a block scope local variable. See
+            Variable scope below.
+          </p>
+        </article>
       </section>
     </main>
 </body>
