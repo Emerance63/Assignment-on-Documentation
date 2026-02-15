@@ -1,6 +1,7 @@
 html,body{
   display: flex;
   font-family: 'Poppins',sans-serif;
+  line-height: 1.5;
 }
 nav{
     position: fixed;
@@ -68,6 +69,16 @@ main section ul {
 }
 section article {
     color: #4d4e53;
-    margin: 15px;
     font-size: 0.96em;
+}
+code {
+    background-color:#f7f7f7 ; 
+    font-size: 1.1em;
+    display: block;
+    width: 100%;
+}
+pre{
+    height: 5rem;
+    display: flex;
+    align-items: center;
 }
