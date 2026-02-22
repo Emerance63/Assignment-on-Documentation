@@ -84,7 +84,7 @@ pre{
 }
 @media  (max-width: 600px){
 body{
-    background: #000;
+    background:rgba(128, 128, 128, 0.304);
 }
 } 
 
